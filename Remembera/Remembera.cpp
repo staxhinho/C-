@@ -6,7 +6,7 @@
 using namespace std;
 
 void saveToFile(const vector<string> &todo) {
-    ofstream outFile("todo_list.txt");
+    ofstream outFile("Remebera.txt");
 
     if (outFile.is_open()) {
         for (const string &task : todo) {
@@ -52,6 +52,7 @@ int main() {
     vector<string> todo;
     loadFromFile(todo);
 
+    cout << "Remebera by staxhinho" << endl;
     cout << "This is your to-do list" << endl;
     if (todo.empty()) {
         cout << "You have nothing to do." << endl;
