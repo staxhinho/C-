@@ -6,3 +6,5 @@ This is a repo for all my C++ projects.
 **MathMate** - A simple calculator made in 40 minutes on 30/01/25.
 
 **Pombank** - A simple bank management system made in 1 hour between 30/01/25 and 31/01/25.
+
+**Tic Tac Toe** - A Tic Tac Toe game made in 40 minutes on 31/01/25.
